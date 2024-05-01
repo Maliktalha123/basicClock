@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background:rgb(0, 200, 153);
+}
+.clock {
+  margin-top: 20px;
+}
+.main {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid rgb(204, 0, 255);
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+  display: flex;
+  background: #000;
+  color: aliceblue;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
